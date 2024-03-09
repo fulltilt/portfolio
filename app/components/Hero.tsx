@@ -34,8 +34,8 @@ const Hero = () => {
             /> */}
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a web developer located in the East Bay here to help with your
-            website needs.
+            I&apos;m a web developer located in the East Bay here to help with
+            your website needs.
           </p>
           <div>
             <button

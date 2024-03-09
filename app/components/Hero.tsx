@@ -34,9 +34,8 @@ const Hero = () => {
             /> */}
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            placerat pretium quam eu lacinia. Mauris blandit nisl id vulputate
-            imperdiet.
+            I'm a web developer located in the East Bay here to help with your
+            website needs.
           </p>
           <div>
             <button
@@ -59,9 +58,12 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ druation: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center ml-18 lg:mt-0"
         >
-          <div className="bg-[#181818] rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"></div>
+          <div
+            className="bg-[#181818] rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"
+            style={{ marginLeft: "6rem" }}
+          ></div>
         </motion.div>
       </div>
     </section>

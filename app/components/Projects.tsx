@@ -54,8 +54,8 @@ const Projects = () => {
   );
 
   return (
-    <section ref={ref} id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4">
+    <section ref={ref}>
+      <h2 className="text-center text-4xl font-bold text-white mb-4">
         My Projects
       </h2>
       {/* <div className="text-white flex justify-center items-center gap-2 py-6">

@@ -8,7 +8,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Restaurant Demo 1",
+    title: "Poke Trades",
+    description: "Site to facilitate global Pokemon card trades",
+    image: "/images/projects/poke-trades.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://poke-trades.com",
+  },
+  {
+    id: 2,
+    title: "Restaurant Demo",
     description:
       "Demo of restaurant page. Responsive, includes maps and motion effects",
     image: "/images/projects/r1.png",
@@ -17,7 +26,7 @@ const projectsData = [
     previewUrl: "https://restaurant-demo1.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Restaurant Demo 2",
     description:
       "Second demo restaurant page. This is more basic than the first demo.",
@@ -26,15 +35,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://restaurant-demo2-lyart.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Coffee Shop",
-    description: "A demo app done for a coffee shop.",
-    image: "/images/projects/r3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://restaurant-demo3.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   title: "Coffee Shop",
+  //   description: "A demo app done for a coffee shop.",
+  //   image: "/images/projects/r3.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "https://restaurant-demo3.vercel.app/",
+  // },
 ];
 
 const cardVariants = {

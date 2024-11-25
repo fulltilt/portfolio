@@ -31,6 +31,7 @@ const ProjectCard = ({
           </Link> */}
           <Link
             href={previewUrl}
+            target="_blank"
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
             <EyeIcon className="h-10 w-10 text-[#ADB7BE] cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group-hover/link:text-white" />

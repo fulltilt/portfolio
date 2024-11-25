@@ -3,19 +3,27 @@
 import { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import { div } from "framer-motion/client";
 
 const tabData = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Node</li>
-      </ul>
+      <div className="flex">
+        <ul className="list-disc pl-2">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>HTML/CSS</li>
+          <li>Node</li>
+          <li>NextJS</li>
+        </ul>
+        <ul className="list-disc ml-12">
+          <li>Tailwind</li>
+          <li>Postgres</li>
+          <li>Web3</li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -69,7 +77,7 @@ const AboutSection = () => {
             knowledge and skill set. I am a team player and I am excited to work
             with others to create amazing applications.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 flex">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -89,7 +97,7 @@ const AboutSection = () => {
               Experience
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 max-h-4">
             {tabData.find((t) => t.id === tab)?.content}
           </div>
         </div>

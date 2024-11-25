@@ -14,9 +14,7 @@ const Hero = () => {
           className="col-span-7 place-self-center text-center sm:text-left"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
-            </span>
+            <span className="text-white">Hello, I&apos;m </span>
             Dave
             {/* <br />
             <TypeAnimation
@@ -38,10 +36,7 @@ const Hero = () => {
             your website needs.
           </p>
           <div>
-            <button
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white text-white 
-            bg-gradient-to-br from-secondary-500 via-primary-500 to-pink-500 hover:bg-slate-200"
-            >
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-slate-400 hover:bg-slate-200">
               <a href="mailto:dave.doria@com">Hire Me</a>
             </button>
             {/* <button
@@ -54,7 +49,7 @@ const Hero = () => {
             </button> */}
           </div>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ druation: 0.5 }}
@@ -64,7 +59,7 @@ const Hero = () => {
             className="bg-[#181818] rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"
             style={{ marginLeft: "6rem" }}
           ></div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
